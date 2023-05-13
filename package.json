@@ -1,6 +1,6 @@
 {
   "name": "react-auth-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for entering and validating PIN code",
   "author": "johnnywang1994",
   "license": "MIT",
@@ -35,7 +35,9 @@
     "react-dom": "^18.2.0"
   },
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnnywang1994/react-auth-code.git"
