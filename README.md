@@ -67,7 +67,7 @@ const App = () => {
 ### Focus
 By default, the first input is auto focused when component mounted, and we can give the `onFocus`, `onBlur` method to sync `focus state`.
 
-> disable auto focus feature by `autoFocus` prop.
+> disable auto focus by `autoFocus` prop.
 
 ```tsx
 import { useState } from 'react';
