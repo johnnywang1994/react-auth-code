@@ -13,7 +13,8 @@
   "scripts": {
     "lint": "eslint ./src/**/*",
     "dev": "watch 'yarn lint' ./src",
-    "build": "tsup"
+    "build": "tsup",
+    "ci": "yarn install --immutable --immutable-cache --check-cache"
   },
   "devDependencies": {
     "@johnnywang/eslint-config": "^1.0.4",
