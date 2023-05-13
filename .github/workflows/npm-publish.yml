@@ -18,5 +18,6 @@ jobs:
         run: yarn ci && yarn
       - name: Publish package on NPM 📦
         run: npm publish
+        # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
