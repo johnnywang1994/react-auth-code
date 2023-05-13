@@ -1,6 +1,6 @@
 {
   "name": "react-auth-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component for entering and validating PIN code",
   "author": "johnnywang1994",
   "license": "MIT",
@@ -8,7 +8,6 @@
     "node": ">=14.0.0"
   },
   "main": "./dist/index.js",
-  "browser": "./dist/index.global.js",
   "exports": {
     ".": {
       "require": "./dist/index.js",
