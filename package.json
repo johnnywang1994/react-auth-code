@@ -7,9 +7,14 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "browser": "dist/index.global.js",
+  "main": "./dist/index.js",
+  "browser": "./dist/index.global.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
   "scripts": {
     "lint": "eslint ./src/**/*",
     "dev": "watch 'yarn lint' ./src",
