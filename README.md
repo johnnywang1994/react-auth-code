@@ -1,6 +1,4 @@
 # React Auth Code
-![two-factor-authentication](https://github.com/johnnywang1994/react-auth-code/assets/42905128/c9da2bba-65a5-42c6-88f0-33ac1ba9bec8)
-
 React component for entering and validating PIN code. With highly customizable `renderInput` prop, adjusting UI/UX more easily.
 
 
